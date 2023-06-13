@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import Btn from "../components/Btn";
 
 const InfoContainer = styled.div`
   position: relative;
@@ -7,19 +8,11 @@ const InfoContainer = styled.div`
   width: 100vw;
   height: 100vh;
   z-index: 6;
-  display: flex;
-  flex-flow: column;
 `;
 const Title = styled.h2`
-  margin-top: 70px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
+  padding-top: 70px;
   color: transparent;
   span {
-    position: relative;
-    text-indent: -99999px;
     background: url("src/assets/images/main_sub_title_01.svg") no-repeat center
       center / contain;
     width: 80px;
@@ -38,6 +31,7 @@ const Info = () => {
       <Title>
         <span>안내</span>
       </Title>
+      <Btn>주요서비스</Btn>
     </InfoContainer>
   );
 };
