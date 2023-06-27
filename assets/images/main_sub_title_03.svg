@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="레이어_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" width="76px" height="36px" viewBox="0 0 76 36" enable-background="new 0 0 76 36" xml:space="preserve">
+<g>
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="388.249" y1="-261.9697" x2="460.6467" y2="-261.9697" gradientTransform="matrix(1 0 0 -1 -387.96 -244.1602)">
+		<stop  offset="0" style="stop-color:#E3007F"/>
+		<stop  offset="0.2" style="stop-color:#E3007F"/>
+		<stop  offset="1" style="stop-color:#5F1985"/>
+	</linearGradient>
+	<path fill="url(#SVGID_1_)" d="M22.042,21.992v6.793h14.432v5.956H0.587v-5.956h14.278v-6.793H22.042z M22.195,0.878v6.794
+		l13.056,15.656H27.12l-8.514-10.005l-8.514,10.005H1.961L15.018,7.672V0.878H22.195z"/>
+	
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="388.2529" y1="-262.1602" x2="460.6467" y2="-262.1602" gradientTransform="matrix(1 0 0 -1 -387.96 -244.1602)">
+		<stop  offset="0" style="stop-color:#E3007F"/>
+		<stop  offset="0.2" style="stop-color:#E3007F"/>
+		<stop  offset="1" style="stop-color:#5F1985"/>
+	</linearGradient>
+	<path fill="url(#SVGID_2_)" d="M61.059,15.881v1.757h14.354v4.924H39.527v-4.924h14.201v-1.757H42.275V0H72.32v4.428H49.259v1.336
+		h22.488V9.85H49.259v1.488h23.636v4.543H61.059z M41.13,29.932c0-1.986,0.579-3.479,1.737-4.468
+		c1.158-0.993,3.033-1.489,5.632-1.489h17.903c2.597,0,4.474,0.496,5.632,1.489c1.157,0.989,1.737,2.481,1.737,4.468
+		c0,1.985-0.58,3.492-1.737,4.522C70.876,35.484,68.999,36,66.402,36H48.499c-2.599,0-4.474-0.516-5.632-1.546
+		S41.13,31.916,41.13,29.932z M48.23,29.932c0,0.762,0.457,1.146,1.373,1.146h15.692c0.915,0,1.373-0.384,1.373-1.146
+		c0-0.738-0.458-1.107-1.373-1.107H49.604C48.688,28.823,48.23,29.191,48.23,29.932z"/>
+</g>
+</svg>
