@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import styled, { keyframes } from "styled-components";
+import { useState } from "react";
+import styled from "styled-components";
 import { GoChevronLeft, GoChevronRight } from "react-icons/go";
 const BPContainer = styled.div`
   @media (min-width: 1024px) {
@@ -35,7 +35,7 @@ const Title = styled.h2`
   padding-bottom: 70px;
   color: transparent;
   span {
-    background: url("src/assets/images/main_sub_title_04.svg") no-repeat center
+    background: url("assets/images/main_sub_title_04.svg") no-repeat center
       center / contain;
     width: 80px;
     height: 2.4rem;
@@ -46,26 +46,6 @@ const Title = styled.h2`
       height: 1.4rem;
     }
   }
-`;
-const Appear = keyframes`
-  0%{
-    opacity: 0;
-    transform:translateY(100px);
-  }
-  100%{
-    opacity: 1;
-    transform:translateY(0);
-  }
-`;
-const disAppear = keyframes`
-0%{
-  opacity: 1;
-  transform:translateY(0);
-}
-100%{
-  opacity: 0;
-  transform:translateY(100px);
-}
 `;
 const Contents = styled.div`
   display: flex;
@@ -218,7 +198,7 @@ const Bannerpage = () => {
                 <Banner
                   itempage={item.page}
                   page={page}
-                  bg={"src/assets/images/" + item.bg}
+                  bg={"assets/images/" + item.bg}
                 ></Banner>
               ))}
             </Banners>

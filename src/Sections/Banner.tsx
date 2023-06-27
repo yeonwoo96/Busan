@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import styled, { keyframes } from "styled-components";
 
 const BannerWrap = styled.div`
@@ -77,12 +77,12 @@ const Banner = () => {
     <>
       <BannerWrap>
         <video
-          src="../src/assets/videos/main_vod_temp.mp4"
+          src="assets/videos/main_vod_temp.mp4"
           controls
-          poster="src/assets/images/poster.png"
+          poster="assets/images/poster.png"
         ></video>
         <SearchBox scroll={scroll}>
-          <img src="src\assets\images\search.png"></img>
+          <img src="assets\images\search.png"></img>
         </SearchBox>
         <ScrollMent scroll={scroll}>Scroll down</ScrollMent>
         <Line scroll={scroll}></Line>

@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 const FooterContainer = styled.div`
   @media (min-width: 1024px) {
     padding: 100px 0;
@@ -21,23 +20,6 @@ const FooterContainer = styled.div`
   }
 `;
 
-const Title = styled.h2`
-  padding-top: 70px;
-  padding-bottom: 70px;
-  color: transparent;
-  span {
-    background: url("src/assets/images/main_sub_title_04.svg") no-repeat center
-      center / contain;
-    width: 80px;
-    height: 2.4rem;
-    color: transparent;
-    display: block;
-    margin: 0 auto;
-    @media (max-width: 1024px) {
-      height: 1.4rem;
-    }
-  }
-`;
 const FooterWrapTop = styled.div`
   width: 100%;
   border-top: 1px solid ${(props) => props.theme.softColor1};

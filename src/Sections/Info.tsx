@@ -32,7 +32,7 @@ const Title = styled.h2`
   padding-top: 70px;
   color: transparent;
   span {
-    background: url("src/assets/images/main_sub_title_01.svg") no-repeat center
+    background: url("assets/images/main_sub_title_01.svg") no-repeat center
       center / contain;
     width: 80px;
     height: 2.4rem;
@@ -347,7 +347,7 @@ const Info = () => {
           <Card1
             scrollY={scrollPosition}
             order={0}
-            background="src/assets/images/ico_news.svg"
+            background="assets/images/ico_news.svg"
           >
             <div className="topBox">
               <div className="title">
@@ -388,7 +388,7 @@ const Info = () => {
           <Card2
             scrollY={scrollPosition}
             order={1}
-            background="src/assets/images/ico_calender.svg"
+            background="assets/images/ico_calender.svg"
           >
             <div className="topBox">
               <div className="title">
@@ -409,7 +409,7 @@ const Info = () => {
           <Card3
             scrollY={scrollPosition}
             order={2}
-            background={"src/assets/images/tour_thum.jpg"}
+            background={"assets/images/tour_thum.jpg"}
           >
             <div className="leftBox">
               <h3>문화관광</h3>
@@ -432,7 +432,7 @@ const Info = () => {
           <Card4
             scrollY={scrollPosition}
             order={3}
-            background={"src/assets/images/bg_mayor_ver9.jpg"}
+            background={"assets/images/bg_mayor_ver9.jpg"}
           >
             <div className="topBox">
               <h3>

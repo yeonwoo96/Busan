@@ -203,8 +203,8 @@ const Header = () => {
             onClick={() => window.scrollTo({ left: 0, top: 0 })}
             src={
               scroll === 0
-                ? "src/assets/images/logoWhite.svg"
-                : "src/assets/images/logoColor.svg"
+                ? "assets/images/logoWhite.svg"
+                : "assets/images/logoColor.svg"
             }
           />
         </LogoWrap>
@@ -243,8 +243,8 @@ const Header = () => {
                   <img
                     src={
                       scroll === 0
-                        ? "src/assets/images/searchWhite.png"
-                        : "src/assets/images/search.png"
+                        ? "assets/images/searchWhite.png"
+                        : "assets/images/search.png"
                     }
                   />
                 </li>
