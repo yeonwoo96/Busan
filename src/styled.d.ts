@@ -8,5 +8,6 @@ declare module "styled-components" {
     softColor1: string;
     softColor2: string;
     gradient: string;
+    btnborder: string;
   }
 }

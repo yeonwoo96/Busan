@@ -8,7 +8,7 @@ const HeaderContainer = styled.div<IHeaderContainer>`
   li {
     cursor: pointer;
   }
-
+  font-size: 14px;
   position: fixed;
   top: 0;
   left: 0;
@@ -38,7 +38,8 @@ const Logo = styled.img`
   cursor: pointer;
 `;
 const HeaderWrapper = styled.div`
-  padding: 0 20px;
+  box-sizing: border-box;
+  width: 90%;
   display: flex;
   margin: auto;
   @media (min-width: 1640px) {

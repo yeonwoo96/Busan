@@ -7,4 +7,5 @@ export const Theme = <DefaultTheme>{
   softColor1: "#585858",
   softColor2: "#888888",
   gradient: "linear-gradient(to right, #eb6ea5 0, #e4007f 30%, #601986 70%)",
+  btnborder: "#ddd",
 };

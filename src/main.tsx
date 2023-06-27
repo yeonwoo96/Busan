@@ -23,7 +23,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: 10px;
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -33,7 +33,14 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+	padding: 0;
+	margin: 0;
+	width: 100vw;
+	display: flex;
+	flex-flow: wrap;
+	align-items: center;
 	line-height: 1;
+	overflow-x: hidden;
 }
 ol, ul {
 	list-style: none;
@@ -52,7 +59,9 @@ table {
 }
 body{
 	font-family: 'Noto Sans KR', sans-serif;
-	font-size: 14px;
+	p{
+		font-size: 14px;
+	}
 	h1{
 		font-size: 4rem;
 	}
@@ -60,7 +69,17 @@ body{
 		font-size: 2.4rem;
 		font-weight: 700;
 	}
+	h3{
+		font-size: 1.8rem;
+		font-weight: 700;
+	}
+	h4{
+		font-size: 15px;
+		font-weight:700;
+	}
+	/* overflow-x: hidden; */
 }
+
 `;
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(

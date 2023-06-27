@@ -5,6 +5,7 @@ const BannerWrap = styled.div`
   position: fixed;
   height: 100vh;
   overflow: hidden;
+  z-index: 1;
   video {
     width: 100vw;
     height: 100%;
@@ -30,7 +31,7 @@ interface IBlindBox {
   scroll: number;
 }
 const BlindBox = styled.div<IBlindBox>`
-  z-index: 5;
+  z-index: 2;
   width: 100vw;
   height: ${(props) => props.scroll + "px"};
   max-height: 100vh;
@@ -64,6 +65,7 @@ const ScrollMent = styled.span<{ scroll: number }>`
   font-size: 16px;
   color: #fff;
 `;
+
 const Banner = () => {
   const [scroll, setScroll] = useState(0);
   useEffect(() => {
