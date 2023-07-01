@@ -34,7 +34,7 @@ const Title = styled.h2`
   padding-bottom: 70px;
   color: transparent;
   span {
-    background: url("assets/images/main_sub_title_03.svg") no-repeat center
+    background: url("./assets/images/main_sub_title_03.svg") no-repeat center
       center / contain;
     width: 80px;
     height: 2.4rem;
@@ -185,7 +185,7 @@ const CardDetail = [
     index: 4,
     Text: "부산시,후쿠시마 오염수 방류 공동 대응을 위한 정부 지원 촉구",
     Photo:
-      "https://scontent-gmp1-1.xx.fbcdn.net/v/t39.30808-6/355299786_647608964073775_181665170291592638_n.jpg?stp=dst-jpg_p720x720&_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_ohc=YeHO8Ub4JA8AX-HY9Rd&_nc_ht=scontent-gmp1-1.xx&edm=AKIiGfEEAAAA&oh=00_AfB84LqI7Mqpr3IoJ0UPXpYftEMtVYMxmpyHB_AyCJb3mg&oe=6496CED7",
+      "https://scontent-gmp1-1.xx.fbcdn.net/v/t39.30808-6/356376889_651197520381586_3030804054309261838_n.jpg?stp=dst-jpg_p720x720&_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeE33dJiadP7COMGKBthr3wk5leNxgH7Ij_mV43GAfsiP0FwBO_LVBne6zfN6XrY1CdiVDKY_CdHfpIQpc6Ydhab&_nc_ohc=2rCLZQRdbYcAX8CWqHU&_nc_ht=scontent-gmp1-1.xx&edm=AKIiGfEEAAAA&oh=00_AfBpfGtismsGViIJoGvCnQWaAvFyVZncy0gsvEH-CovRvw&oe=64A05AA3",
     BgPhoto: true,
     isCircleTitle: false,
   },

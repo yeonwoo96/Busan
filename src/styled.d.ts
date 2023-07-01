@@ -9,5 +9,6 @@ declare module "styled-components" {
     softColor2: string;
     gradient: string;
     btnborder: string;
+    
   }
 }

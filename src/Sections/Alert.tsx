@@ -33,7 +33,7 @@ const Title = styled.h2`
   padding-bottom: 70px;
   color: transparent;
   span {
-    background: url("assets/images/main_sub_title_02.svg") no-repeat center
+    background: url("./assets/images/main_sub_title_02.svg") no-repeat center
       center / contain;
     width: 80px;
     height: 2.4rem;

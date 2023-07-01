@@ -35,7 +35,7 @@ const Title = styled.h2`
   padding-bottom: 70px;
   color: transparent;
   span {
-    background: url("assets/images/main_sub_title_04.svg") no-repeat center
+    background: url("./assets/images/main_sub_title_04.svg") no-repeat center
       center / contain;
     width: 80px;
     height: 2.4rem;
@@ -198,7 +198,7 @@ const Bannerpage = () => {
                 <Banner
                   itempage={item.page}
                   page={page}
-                  bg={"assets/images/" + item.bg}
+                  bg={"./assets/images/" + item.bg}
                 ></Banner>
               ))}
             </Banners>

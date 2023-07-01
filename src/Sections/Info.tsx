@@ -32,7 +32,7 @@ const Title = styled.h2`
   padding-top: 70px;
   color: transparent;
   span {
-    background: url("assets/images/main_sub_title_01.svg") no-repeat center
+    background: url("./assets/images/main_sub_title_01.svg") no-repeat center
       center / contain;
     width: 80px;
     height: 2.4rem;
@@ -347,7 +347,7 @@ const Info = () => {
           <Card1
             scrollY={scrollPosition}
             order={0}
-            background="assets/images/ico_news.svg"
+            background="./assets/images/ico_news.svg"
           >
             <div className="topBox">
               <div className="title">
