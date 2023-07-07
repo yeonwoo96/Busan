@@ -134,6 +134,11 @@ const Card = styled.div<{ index: number }>`
     /* padding: 30px;
     box-sizing: border-box; */
   }
+  &:hover {
+    transform: scale(105%);
+    box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+  }
 `;
 
 const CardImg = styled.div<{ background: string; bg: boolean }>`
@@ -184,8 +189,7 @@ const CardDetail = [
     Title2: "자료",
     index: 4,
     Text: "부산시,후쿠시마 오염수 방류 공동 대응을 위한 정부 지원 촉구",
-    Photo:
-      "https://scontent-gmp1-1.xx.fbcdn.net/v/t39.30808-6/356376889_651197520381586_3030804054309261838_n.jpg?stp=dst-jpg_p720x720&_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeE33dJiadP7COMGKBthr3wk5leNxgH7Ij_mV43GAfsiP0FwBO_LVBne6zfN6XrY1CdiVDKY_CdHfpIQpc6Ydhab&_nc_ohc=2rCLZQRdbYcAX8CWqHU&_nc_ht=scontent-gmp1-1.xx&edm=AKIiGfEEAAAA&oh=00_AfBpfGtismsGViIJoGvCnQWaAvFyVZncy0gsvEH-CovRvw&oe=64A05AA3",
+    Photo: "public/assets/images/sotong.jpg",
     BgPhoto: true,
     isCircleTitle: false,
   },

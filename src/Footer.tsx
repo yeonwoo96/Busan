@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { SlArrowDown } from "react-icons/sl";
 const FooterContainer = styled.div`
   @media (min-width: 1024px) {
     padding: 100px 0;
@@ -38,11 +39,16 @@ const SelectContainer = styled.div`
   }
 `;
 const SiteBtn = styled.div`
-  padding: 10px;
+  padding: 20px;
   border-left: 1px solid ${(props) => props.theme.softColor1};
-  &::after {
-    content: ">";
-    padding-left: 50px;
+  font-size: 17px;
+  cursor: pointer;
+  &:hover {
+    text-decoration: underline;
+  }
+  span {
+    margin-left: 100px;
+    font-size: 12px;
   }
   &.related {
     border-right: 1px solid ${(props) => props.theme.softColor1};
@@ -67,6 +73,8 @@ const FooterWrapBottom1 = styled.div`
     display: flex;
     font-size: 18px;
     gap: 12px;
+    margin-top: 20px;
+    margin-bottom: 70px;
     li {
       &::after {
         content: "|";
@@ -80,10 +88,31 @@ const FooterWrapBottom1 = styled.div`
   }
   .center {
     display: flex;
+    gap: 2rem;
     .info {
       display: flex;
     }
+    .left {
+      width: 120px;
+      height: 40px;
+      background: url("public/assets/images/footer_logo.svg") no-repeat center;
+      background-size: contain;
+      span {
+        opacity: 0;
+      }
+    }
+    .right {
+      display: flex;
+      flex-flow: column;
+      gap: 1rem;
+      .info {
+        a {
+          color: #0f6ca1;
+        }
+      }
+    }
   }
+
   .bottom {
   }
 `;
@@ -93,8 +122,18 @@ const Footer = () => {
     <FooterContainer>
       <FooterWrapTop>
         <SelectContainer>
-          <SiteBtn className="business">사업소 사이트</SiteBtn>
-          <SiteBtn className="related">관련 사이트</SiteBtn>
+          <SiteBtn className="business">
+            사업소 사이트
+            <span>
+              <SlArrowDown />
+            </span>
+          </SiteBtn>
+          <SiteBtn className="related">
+            관련 사이트
+            <span>
+              <SlArrowDown />
+            </span>
+          </SiteBtn>
         </SelectContainer>
       </FooterWrapTop>
       <FooterWrapBottom>
@@ -107,9 +146,13 @@ const Footer = () => {
             <li>뷰어다운로드</li>
           </ul>
           <ul className="center">
-            <div className="left">부산광역시</div>
+            <div className="left">
+              <span>부산광역시</span>
+            </div>
             <div className="right">
-              <p>(우 47545) 부산광역시 연제구 중앙대로 1001(연산동)</p>
+              <p className="address">
+                (우 47545) 부산광역시 연제구 중앙대로 1001(연산동)
+              </p>
               <ul className="info">
                 <li>
                   <a href="#">시청 찾아오시는 길</a>
